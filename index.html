@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>himArt</title>
+  <!-- links for bootstrapcdn css&javascript -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./main.css" type="text/css" />
+
+</head>
+
+<body>
+  <nav id="topbar">
+    <div>
+      <a class="logo">HimsArt</a>
+    </div>
+    <div>
+      <a class="menu_items">home</a>
+      <a class="menu_items">services</a>
+      <a class="menu_items">About</a>
+      <a class="menu_items">Contact</a>
+    </div>
+  </nav>
+  <section class="intro_page">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="display_image" src="https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="wedding_photography">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="display_image" src="https://images.pexels.com/photos/1199605/pexels-photo-1199605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="display_image" src="https://images.pexels.com/photos/2293102/pexels-photo-2293102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </section>
+
+  <!--services section   -->
+
+  <section class="services_section">
+
+    <div class="title_div">
+      <h2 class="block_title">What We do :</h2>
+    </div>
+    <div class="main_grid">
+
+      <div class="service_items">
+        <img class="service_icon_image" src="./images/wedding.png" alt="weddingphotography" /><br />
+        <span>wedding photography</span>
+      </div>
+      <div class="service_items">
+        <img class="service_icon_image" src="./images/portfolio.png" alt="protfolo shot" /><br />
+        <span>Portfolio shoot</span>
+      </div>
+
+      <div class="service_items">
+        <img class="service_icon_image" src="./images/pre-wedding.png" alt="pre-wedding photography" /><br />
+        <span>Pre-wedding photography</span>
+
+      </div>
+
+      <div class="service_items">
+        <img class="service_icon_image" src="./images/birthday-Photography.png" alt="birthday photographers" /><br />
+        <span>Birthday shoot</span>
+      </div>
+
+      <div class="service_items">
+        <img class="service_icon_image" src="./images/babyShower.png" alt="baby-shower shoot" /><br />
+        <span>Baby shower Photography</span>
+
+      </div>
+
+      <div class="service_items">
+        <img class="service_icon_image" src="./images/make-up-artist.png" alt="make up artist shoot" /><br />
+        <span> Make-up artist shoot </span>
+      </div>
+
+      <div class="service_items">
+        <img class="service_icon_image" src="./images/baby.png" alt="baby welcome shoot" /><br />
+        <span> Baby welcome shoot</span>
+      </div>
+
+      <div class="service_items">
+        <img class="service_icon_image" src="./images/christian-wedding.png" alt="christian wedding photography" width="50px" height="50px" /><br />
+        <span>Christian wedding Photography</span>
+
+      </div>
+
+      <div class="service_items">
+        <img class="service_icon_image" src="./images/corporate-photography.png" alt="best corporate photography" /><br />
+        <span>Product shoot</span>
+      </div>
+
+      <div class="service_items">
+        <img class="service_icon_image" src="./images/event-Photography.png" alt="event shoot" /><br />
+        <span> Events shoot</span>
+      </div>
+
+      <div class="service_items">
+        <img class="service_icon_image" src="./images/engagement.png" alt="engagement shoot" /><br />
+        <span>Engagement shoot</span>
+      </div>
+
+      <div class="service_items">
+        <img class="service_icon_image" src="./images/house-warming.png" alt="house warming shoot" /><br />
+        <span>House warming photography</span>
+      </div>
+
+
+    </div>
+  </section>
+  <section class="work_section">
+    <div class="title_div">
+      <h2 class="block_title"> Our work:-</h2>
+    </div>
+    <div class="work_section_div">
+      <div class="work_grid">
+        <img class="work_image" src="https://images.pexels.com/photos/1385478/pexels-photo-1385478.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="best phtotgraphy" />
+
+      </div>
+      <div class="work_grid">
+        <img class="work_image" src="https://images.pexels.com/photos/2106463/pexels-photo-2106463.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="best phtotgraphy" />
+      </div>
+      <div class="work_grid">
+        <img class="work_image" src="https://images.pexels.com/photos/1779491/pexels-photo-1779491.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="best phtotgraphy" />
+      </div>
+      <div class="work_grid">
+        <img class="work_image" src="https://images.pexels.com/photos/1573007/pexels-photo-1573007.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="best phtotgraphy" />
+      </div>
+      <div class="work_grid">
+        <img class="work_image" src="https://images.pexels.com/photos/1024975/pexels-photo-1024975.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="best phtotgraphy" />
+      </div>
+      <div class="work_grid">
+        <img class="work_image" src="https://images.pexels.com/photos/2106673/pexels-photo-2106673.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="best phtotgraphy" />
+      </div>
+      <div class="work_grid">
+        <img class="work_image" src="https://images.pexels.com/photos/1217267/pexels-photo-1217267.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="best phtotgraphy" />
+      </div>
+      <div class="work_grid">
+        <img class="work_image" src="https://images.pexels.com/photos/992711/pexels-photo-992711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="best phtotgraphy" />
+      </div>
+      <div class="work_grid">
+        <img class="work_image" src="https://images.pexels.com/photos/70737/pexels-photo-70737.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="best phtotgraphy" />
+      </div>
+
+    </div>
+  </section>
+
+  <section class="testimonial_section">
+    <div class="title_div">
+      <h2 class="block_title">here from our Customers:</h2>
+    </div>
+    <div class="testimonials">
+      <div class="testimonials_box">
+        <img class="testimonial-image" src="https://mobirise.com/extensions/organicamp/assets/images/face5.jpg" />
+        <p class="testimonial-message">Sales consultants are very polite. Many of the products have tried and are ready to prompt and recommend to customers. The staff shows that they completely share the philosophy of proper nutrition, if you can
+          say so.</p>
+        <h3 class="testimonial-by">VERONICA KING</h3>
+        <p class="job-role">Cook</p>
+
+      </div>
+      <div class="testimonials_box">
+        <img class="testimonial-image" src="https://mobirise.com/extensions/organicamp/assets/images/face5.jpg" />
+        <p class="testimonial-message">Sales consultants are very polite. Many of the products have tried and are ready to prompt and recommend to customers. The staff shows that they completely share the philosophy of proper nutrition, if you can
+          say so.</p>
+        <h3 class="testimonial-by">VERONICA KING</h3>
+        <p class="job-role">Cook</p>
+
+      </div>
+      <div class="testimonials_box">
+
+        <img class="testimonial-image" src="https://mobirise.com/extensions/organicamp/assets/images/face5.jpg" />
+        <p class="testimonial-message">Sales consultants are very polite. Many of the products have tried and are ready to prompt and recommend to customers. The staff shows that they completely share the philosophy of proper nutrition, if you can
+          say so.</p>
+        <h3 class="testimonial-by">VERONICA KING</h3>
+        <p class="job-role">Cook</p>
+
+      </div>
+    </div>
+  </section>
+  <section class="social_icon">
+    6
+  </section>
+  <footer>
+
+  </footer id="contact_section">
+
+
+</body>
+
+</html>
