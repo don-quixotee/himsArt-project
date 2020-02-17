@@ -40,7 +40,7 @@ body {
   width: 100%;
   height: 100vh;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .display_image{
     width: 100%;
     height: 50vh;
