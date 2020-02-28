@@ -203,9 +203,7 @@ list-style: none;
  }
  @media screen and (max-width: 992px) 
  {
-.intro_page{
-  height: 50vh ;
-}
+
 
 .grid-items{
   width: 100%;
