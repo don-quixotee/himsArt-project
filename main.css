@@ -203,10 +203,6 @@ list-style: none;
  }
  @media screen and (max-width: 992px) 
  {
-
-  .display_image {
-    height: 40vh;
-  }
 .intro_page{
   height: 50vh ;
 }
